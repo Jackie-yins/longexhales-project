@@ -2,9 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src//*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': {'max': '640px'},        // Mobile: 0-640px
+      'md': {'min': '641px', 'max': '1023px'}, // Tablet: 641-1023px
+      'lg': {'min': '1024px'},       // Desktop: 1024px and above
+    },
     colors: {
       // Primary: Teal (trust, technology, peace)
       primary: {
@@ -72,4 +77,3 @@ export default {
   },
   plugins: [],
 }
-
