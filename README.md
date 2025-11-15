@@ -1,10 +1,12 @@
-LongExhales
+# LongExhales
+## Live Demo
+https://longexhales-project.vercel.app
 
-Project Overview
-
+##Project Overview
 LongExhales is a transformative wellness brand offering culturally-grounded, trauma-informed healing experiences. This website serves as the digital home for Nathan Fallou's unique wellness practices, including Dance Prayers, African Trance Music Breathwork, Temporary Utopia Improv Games, and Ice Bath Karaoke. The site bridges ancient healing traditions with modern therapeutic approaches while maintaining a socially conscious wellness philosophy.
 
-Color System
+## Brand Identity
+### Color System
 
 · Primary: Teal (#0d9488) - Represents trust, technology, and peace. Used for main brand elements and primary actions.
 · Secondary: Purple (#a855f7) - Symbolizes advocacy and creativity. Used for secondary branding elements.
@@ -12,21 +14,20 @@ Color System
 · Neutral Dark: Charcoal (#171717) - Provides strong contrast for text and important elements.
 · Neutral Light: Cream (#fafafa) - Creates clean, professional backgrounds.
 
-Typography
+### Typography
 
 · Headings: Poppins - Chosen for its modern, clean appearance that conveys professionalism and approachability.
 · Body: Inter - Selected for its excellent readability and modern aesthetic, perfect for content-heavy sections.
 
-
-Layout Adherence
+## Design Decisions
+### Layout Adherence
 
 · Spacing Implementation: Used Tailwind's default spacing scale (4, 6, 8, 12, 16, 20, 24, 32, etc.) to maintain consistent proportions
 · Measurement Tools: Browser dev tools for precise spacing measurements between components
 · Grid Systems: Maintained identical grid structures with consistent gutters across all components
 · Component Positioning: Preserved exact margins and padding relationships throughout the layout
 
-Creative Departures
-
+### Creative Departures
 · Content Strategy: Transformed wellness service offerings into structured, compelling content while maintaining clear information hierarchy
 · Brand Positioning: Emphasized cultural authenticity and trauma-informed approaches to wellness
 · MD Breakpoint Design: Created tablet-optimized layouts that maintain visual hierarchy through:
@@ -35,9 +36,8 @@ Creative Departures
   · Maintaining touch-friendly button sizes
   · Preserving image aspect ratios
 
-
+## Component Architecture
 The application follows a modular component structure:
-
 
 src/
 ├── components/
@@ -57,15 +57,13 @@ src/
 │       ├── Button.jsx
 │       └── Card.jsx
 
-
-Reusability Strategy:
-
+### Reusability Strategy:
 · Section components accept props for dynamic content
 · Common components use variant patterns for different use cases
 · Consistent spacing and styling through Tailwind utility classes
 · PropTypes implementation for type safety
 
-Performance Optimizations
+## Performance Optimizations
 
 1. Image Optimization: Implemented lazy loading for all images
 2. Code Splitting: Configured for route-based splitting
@@ -73,12 +71,12 @@ Performance Optimizations
 4. React.memo: Applied to prevent unnecessary re-renders
 5. Bundle Analysis: Used for identifying optimization opportunities
 
-Image Credits
+## Image Credits
 
 All images sourced from:
 · Original brand photography
 
-Installation & Setup
+## Installation & Setup
 
 bash
 # Clone the repository
@@ -104,7 +102,7 @@ Environment Requirements:
 · npm 7.0 or higher
 · Modern browser with ES6+ support
 
-Technologies Used
+## Technologies Used
 
 · React: 18.2.0 - Modern React with hooks for state management
 · Tailwind CSS: 3.3.0 - Utility-first CSS framework
@@ -112,7 +110,7 @@ Technologies Used
 · React Icons: 4.12.0 - Comprehensive icon library
 · PropTypes: For component prop validation
 
-Challenges & Solutions
+## Challenges & Solutions
 
 1. Custom Breakpoint Configuration
 
@@ -144,7 +142,7 @@ Solution:
 · Created reusable component patterns
 · Ensured typography scaled appropriately across breakpoints
 
-Future Improvements
+## Future Improvements
 
 1. Booking System Integration
    · Implement calendar booking functionality
