@@ -80,8 +80,8 @@ All images sourced from:
 
 bash
 # Clone the repository
-git clone [url]
-cd longexhales-website
+git clone https://github.com/Jackie-yins/longexhales-project
+cd longexhales
 
 # Install dependencies
 npm install
