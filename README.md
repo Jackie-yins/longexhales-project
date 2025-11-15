@@ -1,12 +1,8 @@
 LongExhales
 
-Live Demo
-
-
 Project Overview
 
 LongExhales is a transformative wellness brand offering culturally-grounded, trauma-informed healing experiences. This website serves as the digital home for Nathan Fallou's unique wellness practices, including Dance Prayers, African Trance Music Breathwork, Temporary Utopia Improv Games, and Ice Bath Karaoke. The site bridges ancient healing traditions with modern therapeutic approaches while maintaining a socially conscious wellness philosophy.
-
 
 Color System
 
@@ -21,6 +17,7 @@ Typography
 · Headings: Poppins - Chosen for its modern, clean appearance that conveys professionalism and approachability.
 · Body: Inter - Selected for its excellent readability and modern aesthetic, perfect for content-heavy sections.
 
+
 Layout Adherence
 
 · Spacing Implementation: Used Tailwind's default spacing scale (4, 6, 8, 12, 16, 20, 24, 32, etc.) to maintain consistent proportions
@@ -28,6 +25,7 @@ Layout Adherence
 · Grid Systems: Maintained identical grid structures with consistent gutters across all components
 · Component Positioning: Preserved exact margins and padding relationships throughout the layout
 
+Creative Departures
 
 · Content Strategy: Transformed wellness service offerings into structured, compelling content while maintaining clear information hierarchy
 · Brand Positioning: Emphasized cultural authenticity and trauma-informed approaches to wellness
@@ -75,18 +73,17 @@ Performance Optimizations
 4. React.memo: Applied to prevent unnecessary re-renders
 5. Bundle Analysis: Used for identifying optimization opportunities
 
+Image Credits
 
 All images sourced from:
 · Original brand photography
-
-Each image includes proper photographer attribution and licensing information.
 
 Installation & Setup
 
 bash
 # Clone the repository
-git clone [repository-url]
-cd longexhales
+git clone [url]
+cd longexhales-website
 
 # Install dependencies
 npm install
@@ -168,4 +165,4 @@ Future Improvements
 5. Progressive Web App Features
    · Add offline functionality for core content
    · Implement push notifications for new session types
-   
+   · Create installable PWA for mobile users
